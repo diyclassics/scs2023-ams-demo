@@ -6,7 +6,7 @@ This repo contains notebooks for a CLTK Readers demo at SCS2023 Ancient MakerSpa
 
 These notebooks can be run in Binder (all data/models already available) here: 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](#)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/diyclassics/scs2023-ams-demo/HEAD?labpath=notebooks)
 
 ## Description
 Along with the mass of digitized Latin texts now available to researchers for computational analysis, there exists a number of different formats, markup strategies, encodings, and various editorial decisions that can make it difficult to incorporate texts from various sources into research projects without considerable preparatory work. In this workshop, I demonstrate use of CLTK Readers, a Python-based solution to streamlining the process of working with different collections of Ancient Greek and Latin texts. CLTK Readers consists of two primary parts: 1. a series of corpus readers that transform documents into a common format for analyzable units, such as documents, paragraphs, sentences, lines, and words, with programmatic flexibility for segmentation, tokenization, lemmatization, and other kinds of text annotation and built-in support for the Classical Language Toolkit; and 2. a collection of preconfigured classification, clustering, and visualization pipelines for easily setting up text-analysis experiments based on the output of the corpus readers. Corpus readers are currently available for the CLTK Tesserae Ancient Greek and Latin Corpora and the Universal Dependencies treebanks, with readers for additional collections and formats in development.
